@@ -1,0 +1,13 @@
+Toon Shader uses the main light to create toon shading like cartoon.
+
+### Surface Inputs
+- Texture Color: The base color texture of the material.
+- Light Intensity: Changes how bright the surface is.
+- Shadow Edge: Defines where the shadow starts.
+- Shadow Tint: Defines the tint/darkness to apply.
+- Shadow Smoothness: Defines how smooth the transition between edges.
+
+Try to keep the second edge below the first one to have a correct look
+
+Tutorial of making:
+https://www.youtube.com/watch?v=T8TCW7Vlh58
